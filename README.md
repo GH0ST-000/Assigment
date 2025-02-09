@@ -54,4 +54,4 @@ POST: /poll-tv-code
 2. Generate a TV Code – Visit the `/generate-tv-code` endpoint to generate a new code.
 3. Poll the TV Code – Use the `/poll-tv-code endpoint` to sync the mobile device and TV.
 4. Activate the TV Code – Finally, call the `/activate-tv-code` endpoint to obtain the token.
-# Assigment
+
