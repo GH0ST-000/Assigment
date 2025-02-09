@@ -27,8 +27,10 @@ First used to main database to store data and second used to test features. Make
 4. Run `composer install` <br>
 5. Set the encryption key by executing `php artisan key:generate` <br>
 6. Run migrations `php artisan migrate` <br>
-7. Run Seeder `php artisan db:seed ` <br>
-8. Before run  `php artisan test ` it's optional to comment `test_poll_and_activate_expired_code` test method,cause here you need to wait 5 minutes before test ended <br>
+7. php artisan passport:keys --force
+8. Run Seeder `php artisan db:seed ` <br>
+9. Create Unit Folder In tests Directory
+10. Before run  `php artisan test ` it's optional to comment `test_poll_and_activate_expired_code` test method,cause here you need to wait 5 minutes before test ended <br>
 
 ## POSTMAN
 In the project files, you'll find a folder named POSTMAN, which contains Assignment.postman_collection.json. You can import this file into Postman for easy access to all API routes.
