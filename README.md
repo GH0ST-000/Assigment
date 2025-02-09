@@ -22,13 +22,13 @@ Make sure you have environment setup properly. You will need MySQL, PHP8.3, Comp
     DB_TESTING_USERNAME=root
     DB_TESTING_PASSWORD=
    ```
-First used to main database to store data and second used to test features. Make sure both of them is set correctly .env file
-3. Navigate to the project's root directory using terminal
-4. Run `composer install`
-5. Set the encryption key by executing `php artisan key:generate`
-6. Run migrations `php artisan migrate`
-7. Run Seeder `php artisan db:seed `
-8. Before run  `php artisan test ` it's optional to comment `test_poll_and_activate_expired_code` test method,cause here you need to wait 5 minutes before test ended
+First used to main database to store data and second used to test features. Make sure both of them is set correctly .env file <br>
+3. Navigate to the project's root directory using terminal <br>
+4. Run `composer install` <br>
+5. Set the encryption key by executing `php artisan key:generate` <br>
+6. Run migrations `php artisan migrate` <br>
+7. Run Seeder `php artisan db:seed ` <br>
+8. Before run  `php artisan test ` it's optional to comment `test_poll_and_activate_expired_code` test method,cause here you need to wait 5 minutes before test ended <br>
 
 ## POSTMAN
 In the project files, you'll find a folder named POSTMAN, which contains Assignment.postman_collection.json. You can import this file into Postman for easy access to all API routes.
